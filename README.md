@@ -6,4 +6,7 @@ Copy the lines to the bottom of your ui.css file. DO NOT OVERWRITE ANY LINE THAT
 For Windows, the ui.css file can be found in %localappdata%\GitHubDesktop\app-<version number>\resources
 # Images
 ![landing page](img/landing.PNG?raw=true "Landing Page")
+
 ![Colours](img/colouring.PNG?raw=true "Colours in Dark Mode")
+
+![More Colours](img/morecolour.png?raw=true "More Colours")

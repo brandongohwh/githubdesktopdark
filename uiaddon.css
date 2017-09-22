@@ -2,14 +2,15 @@
 				original code. DO NOT OVERWRITE THE LINES THAT WERE
 				ALREADY IN THAT FILE.;
 Location of ui.css:
-					Windows:
-					%localappdata%\GitHubDesktop\app-<version number>\resources\app;
+Windows:
+%localappdata%\GitHubDesktop\app-<version number>\resources\app;
 */
 
 /*Custom Color Mapping*/
 
 body.platform-win32 #desktop-app-title-bar {
-border-bottom: 1px solid white !important; }
+border-bottom: 1px solid white !important; 
+}
 
 :root{
 --win32-title-bar-background-color: #1e2123 !important;
@@ -54,9 +55,7 @@ border-bottom: 1px solid white !important; }
 #desktop-app-toolbar{
 	border-bottom:1px solid white !important;
 }
-.text-box-component, .text-area-component{
-	/*background-color: #40474f !important*/;
-}
+
 input, textarea,select {
 	background-color:#40474f !important;
 }
