@@ -1,0 +1,73 @@
+/*Instructions: Copy lines below into the ui.css file and paste BELOW
+				original code. DO NOT OVERWRITE THE LINES THAT WERE
+				ALREADY IN THAT FILE.;
+Location of ui.css:
+					Windows:
+					%localappdata%\GitHubDesktop\app-<version number>\resources\app;
+*/
+
+/*Custom Color Mapping*/
+
+body.platform-win32 #desktop-app-title-bar {
+border-bottom: 1px solid white !important; }
+
+:root{
+--win32-title-bar-background-color: #1e2123 !important;
+--toolbar-background-color: #1e2123 !important;
+--toolbar-button-border-color: white !important;
+--background-color:#24292e !important;
+--box-alt-background-color: #24292e !important;
+--text-color:white !important;
+--text-secondary-color:#909aa5 !important;
+--tab-bar-active-color: #469add !important;
+--box-selected-background-color: #595959 !important;
+--box-selected-text-color: white !important;
+--color-renamed:#539bed !important;
+--color-deleted:#f49090 !important;
+--color-new:#00d531 !important;
+--diff-text-color:white !important;
+--diff-add-background-color:#488c4b !important;
+--diff-add-border-color:#1e6121 !important;
+--diff-add-gutter-color:#1e6121 !important;
+--diff-add-inner-background-color:#355f3f !important;
+--diff-delete-border-color:#822900 !important;
+--diff-delete-gutter-color:#822900 !important;
+--diff-delete-background-color:#ff581e !important;
+--diff-delete-inner-background-color:#83000f !important;
+--diff-hunk-background-color:#ba64c9 !important;
+--diff-hunk-border-color:#aa00d1 !important;
+--diff-hunk-gutter-color:#aa00d1 !important;
+--diff-hunk-text-color:white !important;
+--diff-line-number-color:white !important;
+--diff-selected-text-color:white !important;
+--diff-selected-background-color:#0076ff !important;
+--diff-selected-border-color:#0d4586 !important;
+--diff-selected-gutter-color:#0d4586 !important;
+--diff-hover-text-color:white !important;
+--diff-hover-background-color:#5f9ce0 !important;
+--diff-hover-border-color:#216ec2 !important;
+--diff-hover-gutter-color:#216ec2 !important;
+--secondary-button-background:#24292e !important;
+--secondary-button-hover-background:#0372ef !important;
+--link-button-color:#5ea4f3 !important;}
+
+#desktop-app-toolbar{
+	border-bottom:1px solid white !important;
+}
+.text-box-component, .text-area-component{
+	/*background-color: #40474f !important*/;
+}
+input, textarea,select {
+	background-color:#40474f !important;
+}
+::-webkit-input-placeholder{
+	/*Chrome textbox placeholder overwrite*/
+	color: #ddd7d7 !important;
+}
+.CodeMirror{
+	background:#24292e !important;
+	color:white !important;
+}
+.CodeMirror-sizer{
+	background-color:#3a4249 !important;
+}
