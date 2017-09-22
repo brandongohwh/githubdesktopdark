@@ -3,7 +3,7 @@ As the name suggests, this will complement the existing Github Desktop to implem
 # Instructions
 Copy the lines to the bottom of your ui.css file. DO NOT OVERWRITE ANY LINE THAT WAS ORIGINALLY IN THE FILE.
 
-For Windows, the ui.css file can be found in %localappdata%\GitHubDesktop\app-<version number>\resources
+For Windows, the ui.css file can be found in `%localappdata%\GitHubDesktop\app-<version number>\resources`
 # Images
 ![landing page](img/landing.PNG?raw=true "Landing Page")
 
